@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ePendaftaran BPA</title>
+    <link rel="icon" href="images/jata negara.png">
+    <meta name="description" content="eLesen BPA - Bahagian Penguasa Angkasa, Kementerian Sains, Teknologi dan Inovasi">
+    <meta name="keywords" content="eLesen, BPA, Bahagian Penguasa Angkasa, Kementerian Sains, Teknologi dan Inovasi">
+    <meta name="author" content="@aousss">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/item-design.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body
+style="background-image: url('images/photorealistic-earth-planet.jpg'); background-size: cover;">
+
+    <!-- MAIN HEADER -->
+    <header class="main-header">
+        <div class="logo-section">
+            <img src="images/jata negara.png" alt="Logo">
+            <div class="text-group">
+                <p>BAHAGIAN PENGUASA ANGKASA</p>
+                <div class="line-below"></div>
+                <p>KEMENTERIAN SAINS, TEKNOLOGI DAN INOVASI</p>
+            </div>
+        </div>
+
+        <div class="social-icons">
+            <a href="mailto:bpadg@mosti.gov.my"><img src="images/mail_50dp.png" alt="Email"></a>
+            <a href="https://www.facebook.com/profile.php?id=61556680851512" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.youtube.com/@bpamosti" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+            <a href="https://www.linkedin.com/company/101235564/admin/dashboard/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+        </div>
+    </header>
+
+    <!-- REGISTER CONTAINER -->
+    <div class="register-container">
+        <h1>Register</h1>
+        <form action="register.php" method="POST">
+            <input type="text" name="user_name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button class="btn-primary" type="submit">Register</button>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 eLesen BPA. All rights reserved.</p>
+            <p>Designed by @aousss</p>
+        </div>
+    </footer>
+
+</body>
+</html>

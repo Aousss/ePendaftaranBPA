@@ -1,0 +1,39 @@
+/* -----------------------------
+LOGIN FORM
+----------------------------- */
+
+.register-container {
+    max-width    : var(--regular);
+    margin       : 50px auto;
+    background   : white;
+    padding      : 20px;
+    border-radius: 8px;
+    box-shadow   : 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+    display    : block;
+    margin-top : 15px;
+    font-size  : var(--p);
+    font-weight: var(--regular);
+}
+
+input {
+    width           : auto;
+    padding         : 8px;
+    margin-top      : 5px;
+    margin-bottom   : 15px;
+    text-align      : left;
+    padding         : 8px 10px;
+    border          : 1.5px solid #d9d9d9;
+    border-radius   : 5px;
+    background-color: #ffffff;
+    color           : black;
+    font-size       : 16px;
+    outline         : none;
+    border-radius   : 5px;
+}
+
+::placeholder {
+    color: #b3b3b3;
+}

@@ -1,0 +1,49 @@
+@import url(ePendaftaran-template.css);
+
+/* --------------------------
+BUTTON DESIGN
+----------------------------- */
+
+.btn-primary {
+    background-color: var(--primary-blue);
+    stroke-width    : 1.5px;
+    stroke          : var(--primary-blue);
+    color           : var(--white-1);
+}
+
+.btn-primary:hover {
+    background-color: var(--full-black);
+    stroke-width    : 1.5px;
+    stroke          : var(--full-black);
+    color           : var(--white-1);
+}
+
+
+.btn-secondary {
+    background-color: var(--white-1);
+    stroke-width    : 1.5px;
+    stroke          : #767676;
+    color           : var(--primary-blue);
+}
+
+.btn-secondary:hover {
+    background-color: var(--white-4);
+    stroke-width    : 1.5px;
+    stroke          : var(--grey-1);
+    color           : var(--primary-blue);
+}
+
+.btn-primary,
+.btn-secondary {
+    width        : 100%;
+    height       : 50px;
+    padding      : 10px;
+    border       : none;
+    border-radius: 5px;
+    font-size    : 1.25rem;
+    font-weight  : var(--semibold);
+    cursor       : pointer;
+    transition   : background-color 0.3s ease;
+    margin-bottom: 15px;
+    margin-top   : 10px;
+}

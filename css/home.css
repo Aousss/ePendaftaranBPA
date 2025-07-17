@@ -1,0 +1,76 @@
+/* -------------
+TOP HEADER
+---------------*/
+/* 
+.header-bar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    width: 100vh;
+}
+
+.header-left .sub-title {
+    font-size: 14px;
+    margin: 0;
+    color: #3d4b66;
+}
+
+.header-left .main-title {
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+    color: #0d1a3b;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-right .fa-bell {
+    font-size: 24px;
+    color: #0d1a3b;
+}
+
+.logo-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #0d1a3b;
+    border-radius: 50%;
+}
+
+.company-name {
+    font-size: 13px;
+    color: #0d1a3b;
+} */
+
+/* CAROUSEL / ANNOUNCEMENTS */
+/*
+.announcement-card button {
+    background-color: white;
+    color: #002b66;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.info-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+} */

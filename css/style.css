@@ -1,0 +1,241 @@
+header {
+    background-color: #f0f0f0;
+    padding: 0 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 50px;
+    width: 100%;
+}
+
+/* BODY */
+body {
+    font-family: poppins, sans-serif; /* Default font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #B3B3B3;
+}
+
+
+.main-header {
+    background-color: #0E2446; /* Dark blue (change to your desired color) */
+    color: white; /* Text color inside header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-home {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section img {
+    height: 70px; /* Adjust logo height */
+    margin-right: 15px; /* Space between logo and text */
+}
+
+.text-group {
+    font-weight: bold; /* Make the first line bold */
+}
+
+.line-below {
+    height: 2px;
+    background-color: white;
+    width: 100%;
+    margin-top: -10px; /* Space between text and line */
+    margin-bottom: -10px; /* Space between line and social icons */
+}
+
+/* SOCIAL MEDIA ICONS */
+
+.social-icons {
+    display: flex;
+    filter: brightness(1) invert(1); /* makes black icon white */
+    margin-right: 50px;
+}
+
+.social-icons a + a {
+    margin-left: 15px; /* Space between icons except the first */
+}
+
+.social-icons img {
+    height: 30px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.social-icons img:hover {
+    opacity: 1;
+}
+
+/* BODY */
+
+body {
+    font-family: poppins, sans-serif; /* Default font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #B3B3B3;
+    background-size: cover; /* Adjust as needed: cover, contain, 100% 100%, etc. */
+}
+
+
+
+/* Input field */
+
+
+.container {
+    width: 350px;
+    padding: 30px;
+    /* background-color: white; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust size as needed */
+    margin-bottom: 10px;
+}
+
+/* .logo p {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+} */
+
+/* LOGIN PART */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.4); /* Very light transparent white */
+    text-align: center;
+    padding: 30px;
+    width: 40%; /* Adjust width as needed */
+    margin-left: auto; /* Center the container */
+    margin-right: 0px;
+    height: calc(100vh - 180px);
+}
+
+.login-container h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #0E2446; /* Dark blue for the heading */
+}
+
+.input-group {
+    text-align: left; /* Align labels to the left */
+    margin-bottom: 15px; /* Space between input groups */
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+    width: calc(100% - 20px); /* Adjust for padding */
+    padding: 8px 10px;
+    border: 1.5px solid #d9d9d9;
+    border-radius: 5px;
+    background-color: #ffffff; /* Darker input background */
+    color: black; /* Lighter text color */
+    font-size: 16px;
+    outline: none; /* Remove outline on focus */
+}
+
+.input-group input[type="text"]::placeholder,
+.input-group input[type="password"]::placeholder {
+    color: #B3B3B3; /* Lighter placeholder text */
+}
+
+.checkbox-group {
+    margin-top: 40px; /* Space above checkbox group */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align checkbox to the left */
+    margin-bottom: 25px;
+    color: #0E2446;
+    font-size: 14px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+    width: 15px; /* Adjust size as needed */
+    height: 15px; /* Adjust size as needed */
+    accent-color: #0E2446; /* Color of the checkbox checkmark */
+}
+
+.forgot-password {
+    display: block;
+    margin-top: -5px; /* Adjust to move it closer to the login button */
+    margin-bottom: 25px; /* Space before register button */
+    color: black; /* Lighter text color */
+    text-decoration: underline;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.register-button {
+    background-color: #f8f9fa; /* Light background for register */
+    color: #333;
+}
+
+.register-button:hover {
+    background-color: #e2e6ea;
+}
+/* ENDS OF LOGIN */
+
+
+.links {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #3498db;
+}
+
+/* FOOTER - Glass Effect */
+footer {
+    background-color       : rgba(255, 255, 255, 0.2);        /* Very light transparent white */
+    backdrop-filter        : blur(10px);                      /* Blur the background behind the footer */
+    -webkit-backdrop-filter: blur(10px);                      /* Safari support */
+    padding                : 5px;
+    text-align             : center;
+    position               : fixed;
+    bottom                 : 0;
+    left                   : 0;
+    width                  : 100%;
+    height                 : 50px;
+    display                : flex;
+    justify-content        : center;
+    align-items            : center;
+    font-size              : 14px;
+    color                  : #f0f0f0;
+    font-family            : Poppins, sans-serif;
+    font-weight            : 400;
+    z-index                : 1000;
+    box-shadow             : 0 -4px 30px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+    transition             : all 0.3s ease;
+    line-height            : 0.5;
+}

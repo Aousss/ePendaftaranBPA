@@ -1,0 +1,95 @@
+.sidebar {
+    width           : 250px;
+    height          : 100vh;
+    background-color: #0e2446;
+    color           : white;
+    display         : flex;
+    flex-direction  : column;
+    justify-content : space-between;
+    position        : fixed;
+    left            : 0;
+    top             : 0;
+    padding         : 20px 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width        : 80px;
+    height       : auto;
+    margin-bottom: -20px;
+}
+
+.logo h4 {
+    margin-top : 10px;
+    font-size  : 14px;
+    font-weight: normal;
+}
+
+.nav-list {
+    list-style: none;
+    padding   : 0;
+    margin-top: 40px;
+    flex      : 1;
+}
+
+.nav-list li {
+    padding    : 12px 25px;
+    display    : flex;
+    align-items: center;
+    gap        : 10px;
+    color      : #767676;
+    font-weight: 600;
+    cursor     : pointer;
+    transition : 0.3s;
+}
+
+.nav-list ul li.active::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.nav-list li.active {
+    background-color: #123d7a;
+    color           : white;
+    font-weight     : 600;
+}
+.nav-list li:hover{
+    background-color: #123d7a;
+    color           : white;
+    font-weight     : 600;
+}
+.icon {
+    font-size: 18px;
+}
+
+.logout {
+    padding        : 15px 25px;
+    text-decoration: none;
+    margin-bottom  : 30px;
+    display        : fix;
+    align-items    : center;
+    gap            : 10px;
+    color          : #bfc9d6;
+    cursor         : pointer;
+    border-top     : 1px solid #2a3f66;
+}
+
+.logout-button {
+    text-decoration: none;
+    color          : inherit;
+    cursor         : pointer;
+}
+
+
+.logout:hover {
+    background-color: #123d7a;
+    color           : white;
+}
