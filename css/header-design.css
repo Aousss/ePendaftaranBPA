@@ -1,0 +1,35 @@
+@import url(ePendaftaran-template.css);
+
+/* ---------------
+HEADER DESIGN
+------------------ */
+
+.main-header {
+    background-color: var(--primary-blue);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section img {
+    height: 70px; /* Adjust logo height */
+    margin-right: 15px; /* Space between logo and text */
+}
+
+.text-group {
+    font-weight: bold; /* Make the first line bold */
+}
+
+.line-below {
+    height: 2px;
+    background-color: white;
+    width: 100%;
+    margin-top: -10px; /* Space between text and line */
+    margin-bottom: -10px; /* Space between line and social icons */
+}

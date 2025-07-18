@@ -9,7 +9,10 @@
     <meta name="keywords" content="eLesen, BPA, Bahagian Penguasa Angkasa, Kementerian Sains, Teknologi dan Inovasi">
     <meta name="author" content="@aousss">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="stylesheet" href="css/ePendaftaran-template.css">
+    <link rel="stylesheet" href="css/header-design.css">
     <link rel="stylesheet" href="css/footer-design.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/form.css">
@@ -58,14 +61,17 @@ style="background-image: url('images/photorealistic-earth-planet.jpg'); backgrou
             <!------------------------
             Login form starts here
             -------------------------->
-            
+
             <form action="login.php" method="post">
-                <input type="text" name="user_name" placeholder="Username" required><br>
-                <input type="password" name="password" placeholder="Password" required><br>
+                <input type="text" name="user_name" placeholder="MyKad / No Pendaftaran Syarikat" required><br>
+                <div class="password-field">
+                    <input type="password" name="password" placeholder="Kata Laluan" required><br>
+                    <span class="toogle-password" onclick="tooglePassword()">👁️</span>
+                </div>
                 <button class="btn-primary" type="submit">Login</button>
             </form>
 
-            <a href="forgot-password.html" class="forgot-password">Lupa kata laluan?</a>
+            <!-- <a href="forgot-password.html" class="forgot-password">Lupa kata laluan?</a> -->
 
             <a href="register.html">
                 <button class="btn-secondary">Daftar Baharu</button>

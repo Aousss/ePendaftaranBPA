@@ -26,41 +26,14 @@ body {
     background-color: #B3B3B3;
 }
 
-
-.main-header {
-    background-color: #0E2446; /* Dark blue (change to your desired color) */
-    color: white; /* Text color inside header */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .content-home {
     background-color: whitesmoke;
     width: 100%;
 }
 
-.logo-section {
-    display: flex;
-    align-items: center;
-}
 
-.logo-section img {
-    height: 70px; /* Adjust logo height */
-    margin-right: 15px; /* Space between logo and text */
-}
 
-.text-group {
-    font-weight: bold; /* Make the first line bold */
-}
 
-.line-below {
-    height: 2px;
-    background-color: white;
-    width: 100%;
-    margin-top: -10px; /* Space between text and line */
-    margin-bottom: -10px; /* Space between line and social icons */
-}
 
 /* SOCIAL MEDIA ICONS */
 

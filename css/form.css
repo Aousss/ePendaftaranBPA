@@ -5,15 +5,26 @@ LOGIN FORM
 ----------------------------- */
 
 .page-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: calc(100vh-50px);
-    padding-right: 40px;
-    background: #f5f5f5;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* height: calc(100vh-50px);
+    padding-right: 40px; */
+
+    background: white;
 }
 
-.login-container,
+.login-container {
+    width: 350px;
+    padding: 30px;
+    justify-content: flex-end;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    font-size: large;
+}
+
 .register-container {
     margin       : 50px 10px;
     background   : white;
@@ -42,8 +53,36 @@ input {
     border-radius   : 5px;
     margin-bottom   : 15px;
     box-sizing: border-box;
+
+    font-size: 16px;
 }
 
 ::placeholder {
     color: #b3b3b3;
+    font-size: 16px;
+}
+
+/* -----
+PASSWORD TOOGLE
+-------- */
+
+.password-field {
+    position: relative;
+    width: 100%;
+}
+
+.password-field input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    box-sizing: border-box;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
 }
