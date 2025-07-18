@@ -2,6 +2,7 @@
 LOGIN FORM
 ----------------------------- */
 
+.login-container
 .register-container {
     max-width    : var(--regular);
     margin       : 50px auto;
