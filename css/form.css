@@ -1,11 +1,21 @@
+@import url(ePendaftaran-template.css);
+
 /* -----------------------------
 LOGIN FORM
 ----------------------------- */
 
-.login-container
+.page-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: calc(100vh-50px);
+    padding-right: 40px;
+    background: #f5f5f5;
+}
+
+.login-container,
 .register-container {
-    max-width    : var(--regular);
-    margin       : 50px auto;
+    margin       : 50px 10px;
     background   : white;
     padding      : 20px;
     border-radius: 8px;
@@ -20,19 +30,18 @@ label {
 }
 
 input {
-    width           : auto;
-    padding         : 8px;
-    margin-top      : 5px;
-    margin-bottom   : 15px;
+    width           : 100%;
+    padding         : 10px;
     text-align      : left;
-    padding         : 8px 10px;
     border          : 1.5px solid #d9d9d9;
     border-radius   : 5px;
-    background-color: #ffffff;
+    background-color: var(--white-1);
     color           : black;
     font-size       : 16px;
     outline         : none;
     border-radius   : 5px;
+    margin-bottom   : 15px;
+    box-sizing: border-box;
 }
 
 ::placeholder {

@@ -1,8 +1,14 @@
+@import url(ePendaftaran-template.css);
+
+/* ---------------------
+NAVIGATION BAR DESIGN
+------------------------ */
+
 .sidebar {
     width           : 250px;
     height          : 100vh;
-    background-color: #0e2446;
-    color           : white;
+    background-color: var(--primary-blue);
+    color           : var(--white-1);
     display         : flex;
     flex-direction  : column;
     justify-content : space-between;

@@ -103,14 +103,13 @@ body {
 /* Input field */
 
 
-.container {
+/* .container {
     width: 350px;
     padding: 30px;
-    /* background-color: white; */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-}
+} */
 
 .logo img {
     width: 100px; /* Adjust size as needed */
@@ -134,33 +133,33 @@ body {
     height: calc(100vh - 180px);
 } */
 
-.login-container h2 {
+/* .login-container h2 {
     font-size: 26px;
     font-weight: 600;
-    color: #0E2446; /* Dark blue for the heading */
+    color: #0E2446;
 }
 
 .input-group {
-    text-align: left; /* Align labels to the left */
-    margin-bottom: 15px; /* Space between input groups */
+    text-align: left;
+    margin-bottom: 15px;
 }
 
 .input-group input[type="text"],
 .input-group input[type="password"] {
-    width: calc(100% - 20px); /* Adjust for padding */
+    width: calc(100% - 20px);
     padding: 8px 10px;
     border: 1.5px solid #d9d9d9;
     border-radius: 5px;
-    background-color: #ffffff; /* Darker input background */
-    color: black; /* Lighter text color */
+    background-color: #ffffff;
+    color: black;
     font-size: 16px;
-    outline: none; /* Remove outline on focus */
+    outline: none;
 }
 
 .input-group input[type="text"]::placeholder,
 .input-group input[type="password"]::placeholder {
-    color: #B3B3B3; /* Lighter placeholder text */
-}
+    color: #B3B3B3;
+} */
 
 .checkbox-group {
     margin-top: 40px; /* Space above checkbox group */
@@ -213,29 +212,4 @@ body {
     margin: 0 10px;
     text-decoration: none;
     color: #3498db;
-}
-
-/* FOOTER - Glass Effect */
-footer {
-    background-color       : rgba(255, 255, 255, 0.2);        /* Very light transparent white */
-    backdrop-filter        : blur(10px);                      /* Blur the background behind the footer */
-    -webkit-backdrop-filter: blur(10px);                      /* Safari support */
-    padding                : 5px;
-    text-align             : center;
-    position               : fixed;
-    bottom                 : 0;
-    left                   : 0;
-    width                  : 100%;
-    height                 : 50px;
-    display                : flex;
-    justify-content        : center;
-    align-items            : center;
-    font-size              : 14px;
-    color                  : #f0f0f0;
-    font-family            : Poppins, sans-serif;
-    font-weight            : 400;
-    z-index                : 1000;
-    box-shadow             : 0 -4px 30px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
-    transition             : all 0.3s ease;
-    line-height            : 0.5;
 }
